@@ -143,6 +143,7 @@ const Formulario = () =>{
 
 
             setMsjBoton("Sus datos fueron recibidos, recibirá un email de confirmacion");
+            etMsjNombre("");
             
         }
         else{
