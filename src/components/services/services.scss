@@ -1,0 +1,49 @@
+@import "../../App.scss";
+
+.container-services{
+    width: 100%;
+    height: 768px;
+    position: relative;
+    
+}
+.ser-g{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.ser-1{
+    width: 45%;
+    box-sizing: content-box;
+  
+    // position: absolute;
+    // z-index: 1;
+    // left: 0;
+    // top: 0;
+   
+}
+
+.ser-2{
+    width: 55%;
+    // position: absolute;
+    // z-index: 1;
+    // left: 0;
+    // top: 0;
+   
+}
+
+.img-4{
+    width: 100%;
+    height: 100%;
+}
+
+.acor{
+   width: 45%;
+   height: 50%;
+   position: absolute;
+   z-index: 2;
+   top: 10%;
+   left: 20%;
+}
