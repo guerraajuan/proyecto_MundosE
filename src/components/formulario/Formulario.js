@@ -126,7 +126,7 @@ const Formulario = () =>{
             arregloDatos.phone= formPhone;
             arregloDatos.message= formMessage;
 
-            fetch('http://localhost:8000/api/about/save',{
+            fetch('https://evening-reef-74314.herokuapp.com/',{
                 method: 'POST',
                 body:JSON.stringify(arregloDatos),
                 headers:{
