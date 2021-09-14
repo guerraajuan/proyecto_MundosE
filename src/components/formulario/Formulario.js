@@ -137,7 +137,7 @@ const Formulario = () =>{
             .then((response) => response.json())
             .then((json) => console.log(json));
             
-            http://evening-reef-74314.herokuapp.com/about
+          
 
 
 
