@@ -17,7 +17,7 @@ function App() {
       <Products/>
       <Services/> 
       <Formulario/>
-      {/* <Footer/>  */}
+      <Footer/> 
      
     </div>
   );
