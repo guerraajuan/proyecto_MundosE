@@ -126,7 +126,7 @@ const Formulario = () =>{
             arregloDatos.phone= formPhone;
             arregloDatos.message= formMessage;
 
-            fetch('https://evening-reef-74314.herokuapp.com/',{
+            fetch('http://evening-reef-74314.herokuapp.com/about/api/about/save',{
                 method: 'POST',
                 body:JSON.stringify(arregloDatos),
                 headers:{
@@ -143,7 +143,7 @@ const Formulario = () =>{
 
 
             setMsjBoton("Sus datos fueron recibidos, recibirá un email de confirmacion");
-            
+            window.location.reload();
         }
         else{
             setMsjBoton("Debe completar el formulario");
