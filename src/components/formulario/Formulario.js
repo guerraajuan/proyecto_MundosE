@@ -143,7 +143,7 @@ const Formulario = () =>{
 
 
             setMsjBoton("Sus datos fueron recibidos, recibirá un email de confirmacion");
-            window.location.reload();
+            
         }
         else{
             setMsjBoton("Debe completar el formulario");
